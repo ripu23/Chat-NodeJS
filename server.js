@@ -16,7 +16,8 @@ console.log(__dirname);
 
 app.get('/', function(req, res){
   console.log('Request hit on default path');
-  res.sendFile(__dirname + '/public/htmlFiles/signin.html');
+  // res.sendFile(__dirname + '/public/htmlFiles/signin.html');
+  res.sendFile(__dirname + '/public/chat1.html');
 });
 
 app.get('/getContacts', function(req, res){
